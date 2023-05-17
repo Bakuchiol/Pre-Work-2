@@ -13,7 +13,7 @@ function calculateTip() {
 
     document.getElementById('tipPercent').innerHTML = '$ ' + total; //shows tip amount
 
-    if (isNaN(total)){
+    if (isNaN(total)) {
           document.getElementById('tipPercent').innerHTML = 'Please choose tip amount'; //script if no tip chosen
     }
 
